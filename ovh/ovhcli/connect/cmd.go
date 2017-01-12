@@ -25,14 +25,14 @@ func writeConsumerKeyFile(filename string, consumerKey string) (err error) {
 	var cfg *ini.File
 	var section *ini.Section
 	var endpoint string
-	var endpointKey *ini.Key
 
 	if cfg, err = ini.Load(filename); err != nil {
 		return errors.New("Cannot load file " + filename)
 	}
 
 	if defaultSection, errSection := cfg.GetSection("default"); errSection == nil {
-		if _, errKey := defaultSection.GetKey("endpoint"); errKey != nil {
+		endpointKey, errKey := defaultSection.GetKey("endpoint")
+		if errKey != nil {
 			return errors.New("Cannot read endpoint from configuration")
 		}
 		endpoint = endpointKey.String()
