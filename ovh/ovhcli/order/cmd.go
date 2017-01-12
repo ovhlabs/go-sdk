@@ -9,6 +9,7 @@ func init() {
 	Cmd.AddCommand(cart.Cmd)
 	Cmd.AddCommand(CmdDomain)
 	Cmd.AddCommand(CmdDomainTrade)
+	Cmd.AddCommand(CmdDomainTransfer)
 
 }
 
