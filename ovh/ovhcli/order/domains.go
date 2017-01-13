@@ -1,8 +1,6 @@
 package order
 
 import (
-	"fmt"
-
 	"github.com/runabove/go-sdk/ovh"
 	"github.com/runabove/go-sdk/ovh/ovhcli/common"
 	"github.com/runabove/go-sdk/ovh/types"
@@ -41,34 +39,14 @@ var CmdDomain = &cobra.Command{
 		err = client.OrderAssignCart(cart.CartID)
 		common.Check(err)
 
-		// TODO products, err := client.OrderGetProductsDomain(cart.CartID, domain)
-		_, err = client.OrderGetProductsDomain(cart.CartID, domain)
-		common.Check(err)
-
-		// var chooseProduct string
-		common.Check(fmt.Errorf("product.Offer -> not in OrderCartProductInformation"))
-		/*for _, product := range products {
-			if product.Offer == withOffer {
-				chooseProduct = product.OfferID
-				break
-			}
-		}
-		if chooseProduct == "" {
-			err = fmt.Errorf("Cannot find product for domain %s and this offer %s", domain, withOffer)
-			common.Check(err)
-		}
 		_, err = client.OrderAddProductDomain(cart.CartID, types.OrderCartDomainPost{
-			Domain:   domain,
-			Duration: "P1Y",
-			OfferID:  chooseProduct,
-			Quantity: 1,
+			Domain: domain,
 		})
 		common.Check(err)
 
 		order, err := client.OrderPostCheckoutCart(cart.CartID, false)
 		common.Check(err)
 		common.FormatOutputDef(order)
-		*/
 
 	},
 }
