@@ -73,6 +73,36 @@ var CmdDomain = &cobra.Command{
 	},
 }
 
+// CmdDomainTransfer in order domain trade
+var CmdDomainTransfer = &cobra.Command{
+	Use:   "domainTransfer <domain>",
+	Short: "Order domain transfer",
+	Run: func(cmd *cobra.Command, args []string) {
+		if len(args) != 1 {
+			common.WrongUsage(cmd)
+		}
+		domain := args[0]
+
+		client, err := ovh.NewDefaultClient()
+		common.Check(err)
+
+		cart, err := client.OrderCreateCart(types.OrderCartPost{OvhSubsidiary: "FR"})
+		common.Check(err)
+
+		err = client.OrderAssignCart(cart.CartID)
+		common.Check(err)
+
+		_, err = client.OrderAddProductDomainTransfer(cart.CartID, types.OrderCartDomainTransferPost{
+			Domain: domain,
+		})
+		common.Check(err)
+
+		order, err := client.OrderPostCheckoutCart(cart.CartID, false)
+		common.Check(err)
+		common.FormatOutputDef(order)
+	},
+}
+
 // CmdDomainTrade in order domain trade
 var CmdDomainTrade = &cobra.Command{
 	Use:   "domainTrade <domain>",
