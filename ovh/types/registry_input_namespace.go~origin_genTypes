@@ -10,9 +10,9 @@
 
 package types
 
-// OrderHostingWebUpgradePost ...
-type OrderHostingWebUpgradePost struct {
-	Offer string `json:"offer,omitempty"`
+// RegistryInputNamespace A namespace in which a user can either read, write or delete images
+type RegistryInputNamespace struct {
 
-	WaiveRetractationPeriod bool `json:"waiveRetractationPeriod,omitempty"`
+	// Name The namespace name
+	Name string `json:"name,omitempty"`
 }

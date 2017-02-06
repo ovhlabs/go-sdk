@@ -10,9 +10,9 @@
 
 package types
 
-// OrderHostingWebUpgradePost ...
-type OrderHostingWebUpgradePost struct {
-	Offer string `json:"offer,omitempty"`
+// RegistryInputUser A registry user account
+type RegistryInputUser struct {
 
-	WaiveRetractationPeriod bool `json:"waiveRetractationPeriod,omitempty"`
+	// Description A general description of the user account
+	Description string `json:"description,omitempty"`
 }
