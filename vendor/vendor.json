@@ -3,6 +3,18 @@
 	"ignore": "test",
 	"package": [
 		{
+			"checksumSHA1": "mDNG4CyY3y+30nyuY+xIgD70Za4=",
+			"path": "github.com/BurntSushi/toml",
+			"revision": "ffaa107fbd880f6d18cd6fec9b511668dcad8639",
+			"revisionTime": "2016-07-07T23:28:37Z"
+		},
+		{
+			"checksumSHA1": "xgjI2W3RGiQwNlxsOW2V9fJ9kaM=",
+			"path": "github.com/fsnotify/fsnotify",
+			"revision": "a8a77c9133d2d6fd8334f3260d06f60e8d80a5fb",
+			"revisionTime": "2016-06-29T01:11:04Z"
+		},
+		{
 			"checksumSHA1": "vMT+piher66IruU9TZNbL/6dYJ8=",
 			"path": "github.com/ghodss/yaml",
 			"revision": "a54de18a07046d8c4b26e9327698a2ebb9285b36",
@@ -15,10 +27,82 @@
 			"revisionTime": "2016-12-21T12:03:40Z"
 		},
 		{
+			"checksumSHA1": "ydHBPi04mEh+Tir+2JkpSIMckcw=",
+			"path": "github.com/hashicorp/hcl",
+			"revision": "364df430845abef160a0bfb3a59979f746bf4956",
+			"revisionTime": "2016-07-08T14:13:38Z"
+		},
+		{
+			"checksumSHA1": "IxyvRpCFeoJBGl2obLKJV7RCGjg=",
+			"path": "github.com/hashicorp/hcl/hcl/ast",
+			"revision": "364df430845abef160a0bfb3a59979f746bf4956",
+			"revisionTime": "2016-07-08T14:13:38Z"
+		},
+		{
+			"checksumSHA1": "l2oQxBsZRwn6eZjf+whXr8c9+8c=",
+			"path": "github.com/hashicorp/hcl/hcl/parser",
+			"revision": "364df430845abef160a0bfb3a59979f746bf4956",
+			"revisionTime": "2016-07-08T14:13:38Z"
+		},
+		{
+			"checksumSHA1": "FHZ1IXjWHUyuMjy/wQChE4pSoPg=",
+			"path": "github.com/hashicorp/hcl/hcl/scanner",
+			"revision": "364df430845abef160a0bfb3a59979f746bf4956",
+			"revisionTime": "2016-07-08T14:13:38Z"
+		},
+		{
+			"checksumSHA1": "riN5acfVDm4j6LhWXauqiWH5n84=",
+			"path": "github.com/hashicorp/hcl/hcl/strconv",
+			"revision": "364df430845abef160a0bfb3a59979f746bf4956",
+			"revisionTime": "2016-07-08T14:13:38Z"
+		},
+		{
+			"checksumSHA1": "c6yprzj06ASwCo18TtbbNNBHljA=",
+			"path": "github.com/hashicorp/hcl/hcl/token",
+			"revision": "364df430845abef160a0bfb3a59979f746bf4956",
+			"revisionTime": "2016-07-08T14:13:38Z"
+		},
+		{
+			"checksumSHA1": "jQ45CCc1ed/nlV7bbSnx6z72q1M=",
+			"path": "github.com/hashicorp/hcl/json/parser",
+			"revision": "364df430845abef160a0bfb3a59979f746bf4956",
+			"revisionTime": "2016-07-08T14:13:38Z"
+		},
+		{
+			"checksumSHA1": "S1e0F9ZKSnqgOLfjDTYazRL28tA=",
+			"path": "github.com/hashicorp/hcl/json/scanner",
+			"revision": "364df430845abef160a0bfb3a59979f746bf4956",
+			"revisionTime": "2016-07-08T14:13:38Z"
+		},
+		{
+			"checksumSHA1": "fNlXQCQEnb+B3k5UDL/r15xtSJY=",
+			"path": "github.com/hashicorp/hcl/json/token",
+			"revision": "364df430845abef160a0bfb3a59979f746bf4956",
+			"revisionTime": "2016-07-08T14:13:38Z"
+		},
+		{
 			"checksumSHA1": "40vJyUB4ezQSn/NSadsKEOrudMc=",
 			"path": "github.com/inconshreveable/mousetrap",
 			"revision": "76626ae9c91c4f2a10f34cad8ce83ea42c93bb75",
 			"revisionTime": "2014-10-17T20:07:13Z"
+		},
+		{
+			"checksumSHA1": "VR5hMZKwj/Jex1pP9pAMuPVd21E=",
+			"path": "github.com/magiconair/properties",
+			"revision": "e2f061ecfdaca9f35b2e2c12346ffc526f138137",
+			"revisionTime": "2016-07-05T17:13:33Z"
+		},
+		{
+			"checksumSHA1": "KCJhN9Dx329wAN/SeL4CxeypPyk=",
+			"path": "github.com/mitchellh/mapstructure",
+			"revision": "d2dd0262208475919e1a362f675cfc0e7c10e905",
+			"revisionTime": "2016-02-12T03:18:39Z"
+		},
+		{
+			"checksumSHA1": "E1899TNqCHhCtr6+joW4YEldRuE=",
+			"path": "github.com/spf13/cast",
+			"revision": "27b586b42e29bec072fe7379259cc719e1289da6",
+			"revisionTime": "2016-03-03T19:15:55Z"
 		},
 		{
 			"checksumSHA1": "BqUqNg3UuaPTse8Vg+xR/zW6tKw=",
@@ -27,10 +111,28 @@
 			"revisionTime": "2016-10-10T15:14:18Z"
 		},
 		{
+			"checksumSHA1": "dkruahfhuLXXuyeCuRpsWlcRK+8=",
+			"path": "github.com/spf13/jwalterweatherman",
+			"revision": "33c24e77fb80341fe7130ee7c594256ff08ccc46",
+			"revisionTime": "2016-03-01T12:00:06Z"
+		},
+		{
 			"checksumSHA1": "AxfxmmBpbjQoaQKXbERcEw9pv+U=",
 			"path": "github.com/spf13/pflag",
 			"revision": "25f8b5b07aece3207895bf19f7ab517eb3b22a40",
 			"revisionTime": "2016-12-14T04:49:49Z"
+		},
+		{
+			"checksumSHA1": "6FPvEfscRGGViU4vyehlLyWFePw=",
+			"path": "github.com/spf13/viper",
+			"revision": "c1ccc378a054ea8d4e38d8c67f6938d4760b53dd",
+			"revisionTime": "2016-06-05T22:03:07Z"
+		},
+		{
+			"checksumSHA1": "8fD/im5Kwvy3JgmxulDTambmE8w=",
+			"path": "golang.org/x/sys/unix",
+			"revision": "a408501be4d17ee978c04a618e7a1b22af058c0e",
+			"revisionTime": "2016-07-03T23:56:20Z"
 		},
 		{
 			"checksumSHA1": "YRD335tkMvgHzkfbfveMUpsE3Bw=",
