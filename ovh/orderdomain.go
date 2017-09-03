@@ -3,7 +3,7 @@ package ovh
 import (
 	"errors"
 
-	"github.com/runabove/go-sdk/ovh/types"
+	"github.com/ovhlabs/go-sdk/ovh/types"
 )
 
 // OrderGetProductsDomain get products about a domain name

@@ -1,7 +1,7 @@
 package cart
 
 import (
-	"github.com/runabove/go-sdk/ovh/ovhcli/order/cart/domain"
+	"github.com/ovhlabs/go-sdk/ovh/ovhcli/order/cart/domain"
 	"github.com/spf13/cobra"
 )
 

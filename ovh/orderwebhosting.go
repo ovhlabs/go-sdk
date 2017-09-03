@@ -3,7 +3,7 @@ package ovh
 import (
 	"errors"
 
-	"github.com/runabove/go-sdk/ovh/types"
+	"github.com/ovhlabs/go-sdk/ovh/types"
 )
 
 // OrderAddProductWebHosting post a new webHosting product in your cart

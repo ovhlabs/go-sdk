@@ -7,9 +7,9 @@ This repository is a fork from https://github.com/ovh/go-ovh merged with https:/
 
 Lightweight Go wrapper around OVH's APIs. Handles all the hard work including credential creation and requests signing.
 
-[![GoDoc](https://godoc.org/github.com/runabove/go-sdk/ovh?status.svg)](http://godoc.org/github.com/runabove/go-sdk/ovh)
-[![Build Status](https://travis-ci.org/runabove/go-sdk.svg?branch=master)](https://travis-ci.org/runabove/go-sdk)
-[![Coverage Status](https://coveralls.io/repos/github/runabove/go-sdk/badge.svg?branch=master)](https://coveralls.io/github/runabove/go-sdk?branch=master)
+[![GoDoc](https://godoc.org/github.com/ovhlabs/go-sdk/ovh?status.svg)](http://godoc.org/github.com/ovhlabs/go-sdk/ovh)
+[![Build Status](https://travis-ci.org/ovhlabs/go-sdk.svg?branch=master)](https://travis-ci.org/ovhlabs/go-sdk)
+[![Coverage Status](https://coveralls.io/repos/github/ovhlabs/go-sdk/badge.svg?branch=master)](https://coveralls.io/github/ovhlabs/go-sdk?branch=master)
 [![Go Report Card](http://goreportcard.com/badge/ovh/go-sdk)](http://goreportcard.com/report/ovh/go-sdk)
 
 ```go
@@ -17,7 +17,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/runabove/go-sdk/ovh"
+	"github.com/ovhlabs/go-sdk/ovh"
 )
 
 // PartialMe holds the first name of the currently logged-in user.
@@ -51,7 +51,7 @@ To use it, just include it to your ``import`` and run ``go get``:
 ```go
 import (
 	...
-	"github.com/runabove/go-sdk/ovh"
+	"github.com/ovhlabs/go-sdk/ovh"
 )
 ```
 
@@ -90,7 +90,7 @@ Depending on the API you want to use, you may set the ``endpoint`` to:
 * ``soyoustart-ca`` for So you Start North America API
 * ``kimsufi-eu`` for Kimsufi Europe API
 * ``kimsufi-ca`` for Kimsufi North America API
-* ``runabove-ca`` for RunAbove API
+* ``ovhlabs-ca`` for ovhlabs API
 * Or any arbitrary URL to use in a test for example
 
 The client will successively attempt to locate this configuration file in
@@ -152,7 +152,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/runabove/go-sdk/ovh"
+	"github.com/ovhlabs/go-sdk/ovh"
 )
 
 func main() {
@@ -213,7 +213,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/runabove/go-sdk/ovh"
+	"github.com/ovhlabs/go-sdk/ovh"
 )
 
 func main() {
@@ -260,7 +260,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/runabove/go-sdk/ovh"
+	"github.com/ovhlabs/go-sdk/ovh"
 )
 
 func main() {
@@ -425,7 +425,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/runabove/go-sdk/ovh"
+	"github.com/ovhlabs/go-sdk/ovh"
 )
 
 func main() {
@@ -453,13 +453,13 @@ Here is a quick outline of what it may look like.
 ### Get the sources
 
 ```
-go get github.com/runabove/go-sdk/ovh
-cd $GOPATH/src/github.com/runabove/go-sdk/ovh
+go get github.com/ovhlabs/go-sdk/ovh
+cd $GOPATH/src/github.com/ovhlabs/go-sdk/ovh
 go get
 ```
 
 You've developed a new cool feature ? Fixed an annoying bug ? We'd be happy
-to hear from you ! See [CONTRIBUTING.md](https://github.com/runabove/go-sdk/blob/master/CONTRIBUTING.md)
+to hear from you ! See [CONTRIBUTING.md](https://github.com/ovhlabs/go-sdk/blob/master/CONTRIBUTING.md)
 for more informations
 
 ### Run the tests
@@ -525,13 +525,6 @@ go vet ./...
 - **Console**: https://ca.api.kimsufi.com/console/
 - **Create application credentials**: https://ca.api.kimsufi.com/createApp/
 - **Create script credentials** (all keys at once): https://ca.api.kimsufi.com/createToken/
-
-### Runabove
-
-- **Community support**: https://community.runabove.com/
-- **Console**: https://api.runabove.com/console/
-- **Create application credentials**: https://api.runabove.com/createApp/
-- **High level SDK**: https://github.com/runabove/python-runabove
 
 ## License
 

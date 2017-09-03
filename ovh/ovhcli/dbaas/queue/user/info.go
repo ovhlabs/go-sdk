@@ -3,8 +3,8 @@ package user
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/runabove/go-sdk/ovh"
-	"github.com/runabove/go-sdk/ovh/ovhcli/common"
+	"github.com/ovhlabs/go-sdk/ovh"
+	"github.com/ovhlabs/go-sdk/ovh/ovhcli/common"
 )
 
 var cmdInfo = &cobra.Command{

@@ -1,7 +1,7 @@
 package easyhunting
 
 import (
-	"github.com/runabove/go-sdk/ovh/ovhcli/telephony/easyhunting/hunting"
+	"github.com/ovhlabs/go-sdk/ovh/ovhcli/telephony/easyhunting/hunting"
 
 	"github.com/spf13/cobra"
 )

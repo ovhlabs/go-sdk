@@ -1,10 +1,10 @@
 package cloud
 
 import (
-	"github.com/runabove/go-sdk/ovh/ovhcli/cloud/instance"
-	"github.com/runabove/go-sdk/ovh/ovhcli/cloud/network"
-	"github.com/runabove/go-sdk/ovh/ovhcli/cloud/project"
-	"github.com/runabove/go-sdk/ovh/ovhcli/cloud/sshkey"
+	"github.com/ovhlabs/go-sdk/ovh/ovhcli/cloud/instance"
+	"github.com/ovhlabs/go-sdk/ovh/ovhcli/cloud/network"
+	"github.com/ovhlabs/go-sdk/ovh/ovhcli/cloud/project"
+	"github.com/ovhlabs/go-sdk/ovh/ovhcli/cloud/sshkey"
 	"github.com/spf13/cobra"
 )
 

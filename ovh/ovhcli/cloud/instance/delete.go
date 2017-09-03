@@ -3,8 +3,8 @@ package instance
 import (
 	"fmt"
 
-	"github.com/runabove/go-sdk/ovh"
-	"github.com/runabove/go-sdk/ovh/ovhcli/common"
+	"github.com/ovhlabs/go-sdk/ovh"
+	"github.com/ovhlabs/go-sdk/ovh/ovhcli/common"
 
 	"github.com/spf13/cobra"
 )
