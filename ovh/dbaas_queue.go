@@ -3,7 +3,7 @@ package ovh
 import (
 	"fmt"
 
-	"github.com/runabove/go-sdk/ovh/types"
+	"github.com/ovhlabs/go-sdk/ovh/types"
 )
 
 // DBaasQueueAppList list all your app

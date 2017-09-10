@@ -1,7 +1,7 @@
 package ovh
 
 import (
-	"github.com/runabove/go-sdk/ovh/types"
+	"github.com/ovhlabs/go-sdk/ovh/types"
 )
 
 // ContainersServicesList list all your containers

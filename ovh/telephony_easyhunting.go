@@ -3,7 +3,7 @@ package ovh
 import (
 	"strconv"
 
-	"github.com/runabove/go-sdk/ovh/types"
+	"github.com/ovhlabs/go-sdk/ovh/types"
 )
 
 // TelephonyEasyHuntingList list all OVH easy calls queues associated with this billing account

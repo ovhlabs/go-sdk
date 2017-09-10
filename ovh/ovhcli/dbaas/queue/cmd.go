@@ -1,13 +1,13 @@
 package queue
 
 import (
-	"github.com/runabove/go-sdk/ovh/ovhcli/dbaas/queue/key"
-	"github.com/runabove/go-sdk/ovh/ovhcli/dbaas/queue/metrics"
-	"github.com/runabove/go-sdk/ovh/ovhcli/dbaas/queue/region"
-	"github.com/runabove/go-sdk/ovh/ovhcli/dbaas/queue/role"
-	"github.com/runabove/go-sdk/ovh/ovhcli/dbaas/queue/service"
-	"github.com/runabove/go-sdk/ovh/ovhcli/dbaas/queue/topic"
-	"github.com/runabove/go-sdk/ovh/ovhcli/dbaas/queue/user"
+	"github.com/ovhlabs/go-sdk/ovh/ovhcli/dbaas/queue/key"
+	"github.com/ovhlabs/go-sdk/ovh/ovhcli/dbaas/queue/metrics"
+	"github.com/ovhlabs/go-sdk/ovh/ovhcli/dbaas/queue/region"
+	"github.com/ovhlabs/go-sdk/ovh/ovhcli/dbaas/queue/role"
+	"github.com/ovhlabs/go-sdk/ovh/ovhcli/dbaas/queue/service"
+	"github.com/ovhlabs/go-sdk/ovh/ovhcli/dbaas/queue/topic"
+	"github.com/ovhlabs/go-sdk/ovh/ovhcli/dbaas/queue/user"
 
 	"github.com/spf13/cobra"
 )

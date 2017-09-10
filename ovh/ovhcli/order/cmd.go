@@ -1,7 +1,7 @@
 package order
 
 import (
-	"github.com/runabove/go-sdk/ovh/ovhcli/order/cart"
+	"github.com/ovhlabs/go-sdk/ovh/ovhcli/order/cart"
 	"github.com/spf13/cobra"
 )
 

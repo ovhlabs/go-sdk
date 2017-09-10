@@ -1,7 +1,7 @@
 package telephony
 
 import (
-	"github.com/runabove/go-sdk/ovh/ovhcli/telephony/easyhunting"
+	"github.com/ovhlabs/go-sdk/ovh/ovhcli/telephony/easyhunting"
 	"github.com/spf13/cobra"
 )
 

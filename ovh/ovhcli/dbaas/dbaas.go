@@ -1,7 +1,7 @@
 package dbaas
 
 import (
-	"github.com/runabove/go-sdk/ovh/ovhcli/dbaas/queue"
+	"github.com/ovhlabs/go-sdk/ovh/ovhcli/dbaas/queue"
 
 	"github.com/spf13/cobra"
 )
